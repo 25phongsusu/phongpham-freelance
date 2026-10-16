@@ -2,6 +2,8 @@
 
 Website tĩnh, không cần cài đặt thư viện hoặc chạy bước build.
 
+Website đang hoạt động tại: <https://25phongsusu.github.io/phongpham-freelance/>
+
 ## Xem trên máy
 
 Mở `index.html` trực tiếp, hoặc chạy một web server tĩnh trong thư mục dự án.
