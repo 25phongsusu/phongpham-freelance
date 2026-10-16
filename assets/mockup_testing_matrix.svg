@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#121210" rx="8"/>
+  <text x="40" y="40" fill="#fff" font-family="monospace" font-size="18" font-weight="bold">QUY TRÌNH THỬ NGHIỆM (LOW BUDGET)</text>
+  
+  <line x1="40" y1="60" x2="760" y2="60" stroke="#333" stroke-width="2"/>
+
+  <!-- Column 1: Phase 1 -->
+  <rect x="40" y="80" width="220" height="340" fill="#1a1a17" rx="6"/>
+  <text x="150" y="110" fill="#a9a79f" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">GĐ 1: INSIGHT</text>
+  <rect x="60" y="130" width="180" height="60" fill="#25241f" rx="4" stroke="#4caf50" stroke-width="2"/>
+  <text x="150" y="155" fill="#fff" font-family="sans-serif" font-size="14" text-anchor="middle">Insight A: Tiết kiệm</text>
+  <text x="150" y="175" fill="#4caf50" font-family="monospace" font-size="12" text-anchor="middle">THẮNG (CPL: 15k)</text>
+
+  <rect x="60" y="210" width="180" height="60" fill="#25241f" rx="4" stroke="#e4472f" stroke-width="1" opacity="0.6"/>
+  <text x="150" y="235" fill="#a9a79f" font-family="sans-serif" font-size="14" text-anchor="middle">Insight B: Nhanh</text>
+  <text x="150" y="255" fill="#e4472f" font-family="monospace" font-size="12" text-anchor="middle">ĐÃ TẮT (CPL: 45k)</text>
+
+  <!-- Column 2: Phase 2 -->
+  <rect x="290" y="80" width="220" height="340" fill="#1a1a17" rx="6"/>
+  <text x="400" y="110" fill="#fff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">GĐ 2: HÌNH ẢNH (Hiện tại)</text>
+  <rect x="310" y="130" width="180" height="60" fill="#25241f" rx="4" stroke="#ffeb3b" stroke-width="2"/>
+  <text x="400" y="155" fill="#fff" font-family="sans-serif" font-size="14" text-anchor="middle">Video: Unboxing</text>
+  <text x="400" y="175" fill="#ffeb3b" font-family="monospace" font-size="12" text-anchor="middle">ĐANG TEST...</text>
+  
+  <rect x="310" y="210" width="180" height="60" fill="#25241f" rx="4" stroke="#ffeb3b" stroke-width="2"/>
+  <text x="400" y="235" fill="#fff" font-family="sans-serif" font-size="14" text-anchor="middle">Ảnh: Feedback</text>
+  <text x="400" y="255" fill="#ffeb3b" font-family="monospace" font-size="12" text-anchor="middle">ĐANG TEST...</text>
+
+  <!-- Column 3: Phase 3 -->
+  <rect x="540" y="80" width="220" height="340" fill="#1a1a17" rx="6" opacity="0.5"/>
+  <text x="650" y="110" fill="#a9a79f" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">GĐ 3: VÍT ADS</text>
+  <rect x="560" y="130" width="180" height="60" fill="#25241f" rx="4" stroke="#333" stroke-width="1"/>
+  <text x="650" y="155" fill="#a9a79f" font-family="sans-serif" font-size="14" text-anchor="middle">Mẫu Win</text>
+  <text x="650" y="175" fill="#696861" font-family="monospace" font-size="12" text-anchor="middle">ĐÃ CHỐT</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4caf50" />
+    </marker>
+  </defs>
+  <path d="M 240 160 C 265 160, 265 160, 290 160" fill="none" stroke="#4caf50" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 510 160 C 535 160, 535 160, 560 160" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Watermark -->
+  <g opacity="0.06" transform="translate(400.0, 225.0) rotate(-20)">
+    <text x="0" y="0" fill="#888" font-family="sans-serif" font-weight="900" font-size="80" text-anchor="middle" letter-spacing="8">PHẠM PHONG</text>
+  </g>
+  <g opacity="0.4">
+    <text x="776" y="426" fill="#888" font-family="monospace" font-weight="600" font-size="14" text-anchor="end">© Phạm Phong</text>
+  </g>
+</svg>

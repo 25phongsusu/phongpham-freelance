@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#121210" rx="8"/>
+  <rect x="0" y="0" width="800" height="50" fill="#1a1a17" rx="8"/>
+  <text x="20" y="32" fill="#e4472f" font-family="monospace" font-size="16" font-weight="bold">GROWTH DASHBOARD v2.0</text>
+  <text x="780" y="32" fill="#696861" font-family="sans-serif" font-size="12" text-anchor="end">Cập nhật: Vừa xong</text>
+
+  <!-- KPI Boxes -->
+  <rect x="20" y="70" width="240" height="90" fill="#1a1a17" rx="6" stroke="#333" stroke-width="1"/>
+  <text x="40" y="100" fill="#a9a79f" font-family="sans-serif" font-size="14">Tổng Chi Phí</text>
+  <text x="40" y="135" fill="#fff" font-family="monospace" font-size="28" font-weight="bold">32,500,000đ</text>
+
+  <rect x="280" y="70" width="240" height="90" fill="#1a1a17" rx="6" stroke="#333" stroke-width="1"/>
+  <text x="300" y="100" fill="#a9a79f" font-family="sans-serif" font-size="14">Tổng Doanh Thu</text>
+  <text x="300" y="135" fill="#4caf50" font-family="monospace" font-size="28" font-weight="bold">185,200,000đ</text>
+
+  <rect x="540" y="70" width="240" height="90" fill="#1a1a17" rx="6" stroke="#333" stroke-width="1"/>
+  <text x="560" y="100" fill="#a9a79f" font-family="sans-serif" font-size="14">CIR (Cost/Income)</text>
+  <text x="560" y="135" fill="#e4472f" font-family="monospace" font-size="28" font-weight="bold">17.5%</text>
+
+  <!-- Line Chart Area -->
+  <rect x="20" y="180" width="760" height="250" fill="#1a1a17" rx="6" stroke="#333" stroke-width="1"/>
+  <text x="40" y="210" fill="#a9a79f" font-family="sans-serif" font-size="14">Doanh Thu vs Chi Phí (30 Ngày)</text>
+  
+  <!-- Grid Lines -->
+  <line x1="40" y1="240" x2="760" y2="240" stroke="#25241f" stroke-width="1"/>
+  <line x1="40" y1="290" x2="760" y2="290" stroke="#25241f" stroke-width="1"/>
+  <line x1="40" y1="340" x2="760" y2="340" stroke="#25241f" stroke-width="1"/>
+  <line x1="40" y1="390" x2="760" y2="390" stroke="#333" stroke-width="1"/>
+
+  <!-- Lines -->
+  <path d="M 40 370 L 150 365 L 260 350 L 370 345 L 480 340 L 590 320 L 760 330" fill="none" stroke="#e4472f" stroke-width="3" opacity="0.6"/>
+  <path d="M 40 300 L 150 320 L 260 250 L 370 280 L 480 200 L 590 190 L 760 170" fill="none" stroke="#4caf50" stroke-width="4"/>
+  
+  <!-- Tooltip Mockup -->
+  <rect x="560" y="155" width="120" height="50" fill="#121210" rx="4" stroke="#e4472f" stroke-width="1"/>
+  <text x="620" y="175" fill="#fff" font-family="monospace" font-size="12" text-anchor="middle">Tăng Ngân Sách</text>
+  <text x="620" y="195" fill="#4caf50" font-family="sans-serif" font-size="12" text-anchor="middle">Doanh thu +45%</text>
+  <circle cx="590" cy="190" r="6" fill="#4caf50"/>
+
+  <!-- Watermark -->
+  <g opacity="0.06" transform="translate(400.0, 225.0) rotate(-20)">
+    <text x="0" y="0" fill="#888" font-family="sans-serif" font-weight="900" font-size="80" text-anchor="middle" letter-spacing="8">PHẠM PHONG</text>
+  </g>
+  <g opacity="0.4">
+    <text x="776" y="426" fill="#888" font-family="monospace" font-weight="600" font-size="14" text-anchor="end">© Phạm Phong</text>
+  </g>
+</svg>
